@@ -2,4 +2,4 @@
 # http://creativecommons.org/publicdomain/zero/1.0/deed.ja
 
 scoreboard players operation _ ScoreToMove = @s ScoreToMove
-function score_to_move:binary_move/31
+function score_to_move:binary_move/30
