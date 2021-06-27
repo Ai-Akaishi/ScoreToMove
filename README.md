@@ -2,6 +2,15 @@
 (Minecraft 1.13+) Very Easy Way to Proceed Entities by the Specified Score  
 スコア分だけエンティティを前進させられるよ！
 
+# 動作確認済みバージョン / Verified minecraft versions
+
+- 1.17
+
+以下のバージョンは右のReleasesからどうぞ。  
+For the following versions, please check Releases on the right.
+
+- 1.13.x
+
 # 使い方/How To Use
 
 エンティティのScoreToMoveに、前進させたい距離(m)の10000倍をセットして、function score_to_move:applyを実行させてね！  
