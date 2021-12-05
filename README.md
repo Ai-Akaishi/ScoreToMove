@@ -5,6 +5,7 @@
 # 動作確認済みバージョン / Verified minecraft versions
 
 - 1.17
+- 1.18
 
 以下のバージョンは右のReleasesからどうぞ。  
 For the following versions, please check Releases on the right.
@@ -19,7 +20,7 @@ Set the entity's ScoreToMove to 10000 times the desired distance(m), then call s
 ```
 例)Targetというタグの付いたエンティティを12.3456m前進させたい場合  
 /scoreboard players set @e[tag=Target] ScoreToMove 123456  
-/execute as @e[tag=Target] at @s run function score_to_move:apply
+/execute as @e[tag=Target] at @s run function #score_to_move:apply
 ```
 
 # 連絡はこちら/Contact
